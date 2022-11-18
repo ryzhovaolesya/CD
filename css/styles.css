@@ -12,7 +12,7 @@
     justify-content: center;
 }
 
-@media (max-width:4000px) and (min-width:1439px){
+@media (max-width:4000px) and (min-width:1435px){
     .header{
         display: flex;
         margin: 219px, 8px;
