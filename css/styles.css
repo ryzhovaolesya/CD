@@ -986,11 +986,7 @@
     .kon_karta{
         padding-top: 10px;
     }
-    #karta{
-        width: 500px;
-        height: 440px;
-        border: 0;
-    }
+
 }
 
 @media (max-width:1021px) and (min-width:765px){
@@ -1468,11 +1464,7 @@
         padding-top: 10px;
         padding-right: 30px;
     }
-    #karta{
-        width: 500px;
-        height: 440px;
-        border: 0;
-    }
+
 }
 
 @media (max-width:764px) and (min-width:321px){
@@ -2085,11 +2077,6 @@
 
     .kon_karta{
         padding-top: 10px;
-    }
-    #karta{
-        width: 250px;
-        height: 220px;
-        border: 0;
     }
 
 }
@@ -2711,10 +2698,6 @@
     .kon_karta{
         padding-top: 10px;
     }
-    #karta{
-        width: 125px;
-        height: 110px;
-        border: 0;
-    }
+
 
 }
