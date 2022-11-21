@@ -2061,15 +2061,15 @@
     .kont_title{
         color: #7A5537;
         font-size: 15px;
-        padding-top: 24px;
-        padding-left: 13px;
+        padding-top: 120px;
+        padding-left: 4px;
     }
     
     .kont_ul{
-        font-size: 10px;
+        font-size: 9px;
         color: #7A5537;
         padding-top: 10px;
-        padding-left: 13px;
+        padding-left: 0px;
     }
     
     .kont_ul2{
