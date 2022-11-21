@@ -2213,15 +2213,15 @@
     }
     
     .card{
-        width: 104px;
-        height: 138px;
+        width: 100px;
+        height: 135px;
         background-color: #fff;
         border-radius: 10px;
     }
     
     .card_img img{
-        width: 104px;
-        height: 66.78px;
+        width: 100px;
+        height: 72.68px;
         border-radius: 10px 10px 0 0;
     }
     
