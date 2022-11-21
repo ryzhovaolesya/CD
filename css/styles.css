@@ -1591,15 +1591,15 @@
     }
     
     .card{
-        width: 124px;
-        height: 170px;
+        width: 108px;
+        height: 140px;
         background-color: #fff;
         border-radius: 10px;
     }
     
     .card_img img{
-        width: 124px;
-        height: 90.12px;
+        width: 108px;
+        height: 78.49px;
         border-radius: 10px 10px 0 0;
     }
     
