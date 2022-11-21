@@ -45,7 +45,7 @@
     }
     
     .onas{
-        background-image: url(img/onas.png);
+        background-image: url(/img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -510,7 +510,11 @@
     .kon_karta{
         padding-top: 10px;
     }
-
+    #karta{
+        width: 500px;
+        height: 440px;
+        border: 0;
+    }
 }
 
 @media (max-width:1438px) and (min-width:1022px){
@@ -546,7 +550,7 @@
     }
     
     .onas{
-        background-image: url(img/onas.png);
+        background-image: url(/img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -986,7 +990,11 @@
     .kon_karta{
         padding-top: 10px;
     }
-
+    #karta{
+        width: 500px;
+        height: 440px;
+        border: 0;
+    }
 }
 
 @media (max-width:1021px) and (min-width:765px){
@@ -1021,7 +1029,7 @@
     }
     
     .onas{
-        background-image: url(img/onas.png);
+        background-image: url(/img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -1464,7 +1472,11 @@
         padding-top: 10px;
         padding-right: 30px;
     }
-
+    #karta{
+        width: 500px;
+        height: 440px;
+        border: 0;
+    }
 }
 
 @media (max-width:764px) and (min-width:321px){
@@ -1475,9 +1487,9 @@
     }
     
     .logo img{
-        width: 93px;
-        height: 51px;
-        top: 25px;
+        width: 83px;
+        height: 41px;
+        top: 30px;
         position: absolute;
         left: 20px;
     }
@@ -1493,12 +1505,12 @@
         margin-top: 41px;
         margin-left: 100px;
         display: flex;
-        gap: 20px;
+        gap: 15px;
         
     }
     
     .onas{
-        background-image: url(img/onas.png);
+        background-image: url(/img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -1543,7 +1555,7 @@
     
     .menu{
         background-color: #FFD1C8;
-        height: 1815px;
+        height: 1654px;
     }
     
     .men_t{
@@ -1564,38 +1576,38 @@
     
     .menu_nav{
         padding-top: 20px;
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .btn_zavtrak{
-        padding-left: 12px;
+        padding-left: 10px;
     }
     
     .btn_coffee{
-        padding-left: 12px;
+        padding-left: 10px;
     }
     
     .btn_sladkoe{
-        padding-left: 12px;
+        padding-left: 10px;
     }
     
     
     .card1{
         display: flex;
-        gap: 8px;
+        gap: 5px;
         padding-top: 28px;
     }
     
     .card{
-        width: 130px;
-        height: 190px;
+        width: 124px;
+        height: 170px;
         background-color: #fff;
         border-radius: 10px;
     }
     
     .card_img img{
-        width: 130px;
-        height: 94.48px;
+        width: 124px;
+        height: 90.12px;
         border-radius: 10px 10px 0 0;
     }
     
@@ -1617,33 +1629,35 @@
         gap: 20px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 20px;
+        padding-top: 3px;
     }
     .card_info2{
         display: flex;
         gap: 20px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 33px;
+        padding-top: 3px;
     }
     .card_info3{
         display: flex;
-        gap: 20px;
+        gap:12px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 9px;
+        padding-top: 3px;
     }
     
     .card2{
         display: flex;
-        gap: 8px;
+        gap: 5px;
         padding-top: 14px;
     }
     #omlet{
-        padding-top: 14px;
+        padding-top: 0px;
+
     }
     #omlett{
-        padding-top: 14px;
+        padding-top: 0px;
+
     }
     
     .card_info6{
@@ -1651,28 +1665,28 @@
         gap: 24px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 47px;
+        padding-top: 28px;
     }
     
     .card3{
         display: flex;
-        gap: 8px;
+        gap: 5px;
         padding-top: 14px;
     }
 
     .card_info7{
         display: flex;
-        gap: 14px;
+        gap: 10px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 11px;
+        padding-top: -1px;
     }
 
     #cof{
-        padding-top: 6px;
+        padding-top: 0px;
     }
     #coff{
-        padding-top: 6px;
+        padding-top: 0px;
     }
     #kakao{
         padding-top: 6px;
@@ -1689,38 +1703,38 @@
     
     .card_info11{
         display: flex;
-        gap: 35px;
+        gap: 28px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 29px;
+        padding-top: 19px;
     }
     
     .card5{
         display: flex;
-        gap: 8px;
+        gap: 5px;
         padding-top: 14px;
     }
     
     .card_info13{
         display: flex;
-        gap: 34px;
+        gap: 24px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 30px;
+        padding-top: 18px;
     }
     
     .card6{
         display: flex;
-        gap: 8px;
+        gap: 5px;
         padding-top: 14px;
     }
     
     .card_info15{
         display: flex;
-        gap: 25px;
+        gap: 15px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 30px;
+        padding-top: 15px;
     }
     
     .card_info17{
@@ -1728,31 +1742,37 @@
         gap: 25px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 19px;
+        padding-top: 4px;
     }
     
     .card7{
         display: flex;
-        gap: 8px;
+        gap: 5px;
         padding-top: 14px;
     }
     
     .card_info18{
         display: flex;
-        gap: 25px;
+        gap: 10px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 18px;
+        padding-top: 0px;
     }
     #don{
-        padding-top: 16px;
+        padding-top: 2px;
     }
     #donn{
-        padding-top: 16px;
+        padding-top: 2px;
+    }
+    #doon{
+        padding-top: 18px;
+    }
+    #doonn{
+        padding-top: 18px;
     }
     .card8{
         display: flex;
-        gap: 8px;
+        gap: 5px;
         padding-top: 14px;
     }
     
@@ -2078,6 +2098,11 @@
     .kon_karta{
         padding-top: 10px;
     }
+    #karta{
+        width: 250px;
+        height: 220px;
+        border: 0;
+    }
 
 }
 
@@ -2105,14 +2130,14 @@
     
     .but_head{
         margin-top: 41px;
-        margin-left: 80px;
+        margin-left: 100px;
         display: flex;
         gap: 10px;
         
     }
     
     .onas{
-        background-image: url(img/onas.png);
+        background-image: url(/img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -2182,21 +2207,21 @@
     }
     
     .btn_zavtrak{
-        padding-left: 12px;
+        padding-left: 10px;
     }
     
     .btn_coffee{
-        padding-left: 12px;
+        padding-left: 10px;
     }
     
     .btn_sladkoe{
-        padding-left: 12px;
+        padding-left: 10px;
     }
     
     
     .card1{
         display: flex;
-        gap: 8px;
+        gap: 3px;
         padding-top: 28px;
     }
     
@@ -2250,7 +2275,7 @@
     
     .card2{
         display: flex;
-        gap: 8px;
+        gap: 3px;
         padding-top: 14px;
     }
     #omlet{
@@ -2270,7 +2295,7 @@
     
     .card3{
         display: flex;
-        gap: 8px;
+        gap: 3px;
         padding-top: 14px;
     }
 
@@ -2297,7 +2322,7 @@
     
     .card4{
         display: flex;
-        gap: 8px;
+        gap: 3px;
         padding-top: 14px;
     }
     
@@ -2311,7 +2336,7 @@
     
     .card5{
         display: flex;
-        gap: 8px;
+        gap: 3px;
         padding-top: 14px;
     }
     
@@ -2325,7 +2350,7 @@
     
     .card6{
         display: flex;
-        gap: 8px;
+        gap: 3px;
         padding-top: 14px;
     }
     
@@ -2347,7 +2372,7 @@
     
     .card7{
         display: flex;
-        gap: 8px;
+        gap: 3px;
         padding-top: 14px;
     }
     
@@ -2372,13 +2397,14 @@
     }
     .card8{
         display: flex;
-        gap: 8px;
+        gap: 3px;
         padding-top: 14px;
     }
     
     .reviews{
         background-color: #7A5537;
-        height: 495px;
+        height: 615px;
+        justify-content: center;
     }
     
     .reviews_title{
@@ -2398,9 +2424,7 @@
     }
     
     .reviews1{
-        display: flex;
-        gap: 2px;
-        padding-top: 43px;
+        padding-top: 17px;
     }
     
     .rev1{
@@ -2457,6 +2481,7 @@
     .rev2{
         display: flex;
         gap: 1px;
+        padding-top: 5px;
     }
     
     .revi2{
@@ -2504,15 +2529,12 @@
     }
     
     .reviews2{
-        display: flex;
-        gap: 3px;
-        padding-top: 12px;
+        padding-top: 5px;
     }
     
     .rev3{
         display: flex;
         gap: 1px;
-        padding-left: 12px;
     }
     
     .revi3{
@@ -2556,7 +2578,7 @@
     .rev4{
         display: flex;
         gap: 1px;
-        padding-right: 23px;
+        padding-top: 5px;
     }
     
     .revi4{
@@ -2604,7 +2626,7 @@
     }
     
     .reviews3{
-        padding-top: 14px;
+        padding-top: 5px;
     }
     
     .rev5{
@@ -2698,6 +2720,10 @@
     .kon_karta{
         padding-top: 10px;
     }
-
+    #karta{
+        width: 125px;
+        height: 110px;
+        border: 0;
+    }
 
 }
