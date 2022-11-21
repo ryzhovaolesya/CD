@@ -1592,7 +1592,7 @@
     
     .card{
         width: 117px;
-        height: 150px;
+        height: 155px;
         background-color: #fff;
         border-radius: 10px;
     }
@@ -1613,29 +1613,29 @@
         font-size: 10px;
         color: #7A5537;
         padding-left: 2px;
-        padding-top: 2px;
+        padding-top: 0px;
     }
     
     .card_info1{
         display: flex;
-        gap: 20px;
+        gap: 12px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 3px;
+        padding-top: 0px;
     }
     .card_info2{
         display: flex;
-        gap: 20px;
+        gap: 12px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 3px;
+        padding-top: 0px;
     }
     .card_info3{
         display: flex;
-        gap:12px;
+        gap:7px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 3px;
+        padding-top: 0px;
     }
     
     .card2{
@@ -1654,10 +1654,10 @@
     
     .card_info6{
         display: flex;
-        gap: 24px;
+        gap: 15px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 28px;
+        padding-top: 24px;
     }
     
     .card3{
@@ -1770,7 +1770,8 @@
     
     .reviews{
         background-color: #7A5537;
-        height: 495px;
+        height: 630px;
+        justify-content: center;
     }
     
     .reviews_title{
@@ -1847,7 +1848,7 @@
     .rev2{
         display: flex;
         gap: 4px;
-        padding-top: 5px;
+        padding-top: 6px;
     }
     
     .revi2{
@@ -1902,7 +1903,7 @@
     .rev3{
         display: flex;
         gap: 6px;
-        padding-left: 12px;
+        padding-left: 0px;
     }
     
     .revi3{
