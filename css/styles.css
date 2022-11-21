@@ -1547,7 +1547,7 @@
     
     .menu{
         background-color: #FFD1C8;
-        height: 1654px;
+        height: 1602px;
     }
     
     .men_t{
@@ -1610,7 +1610,7 @@
     }
     
     .card_disc{
-        font-size: 10px;
+        font-size: 9px;
         color: #7A5537;
         padding-left: 2px;
         padding-top: 0px;
@@ -1671,7 +1671,7 @@
         gap: 3px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 0px;
+        padding-top: 14px;
     }
 
     #cof{
@@ -1681,10 +1681,10 @@
         padding-top: 0px;
     }
     #kakao{
-        padding-top: 13px;
+        padding-top: 1px;
     }
     #kakaoo{
-        padding-top: 13px;
+        padding-top: 1px;
     }
     
     .card4{
@@ -1726,7 +1726,7 @@
         gap: 15px;
         font-size: 10px;
         color: #7A5537;
-        padding-top: 15px;
+        padding-top: 25px;
     }
     
     .card_info17{
@@ -1751,16 +1751,16 @@
         padding-top: 11px;
     }
     #don{
-        padding-top: 14px;
+        padding-top: 0px;
     }
     #donn{
-        padding-top: 14px;
+        padding-top: 0px;
     }
     #doon{
-        padding-top: 14px;
+        padding-top: 0px;
     }
     #doonn{
-        padding-top: 14px;
+        padding-top: 0px;
     }
     .card8{
         display: flex;
