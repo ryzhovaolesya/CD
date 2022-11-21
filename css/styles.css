@@ -1790,8 +1790,6 @@
     }
     
     .reviews1{
-        display: flex;
-        gap: 30px;
         padding-top: 43px;
     }
     
@@ -1856,6 +1854,7 @@
         height: 80px;
         width: 140px;
         border-radius: 10px;
+        padding-top: 5px;
     }
     .rev2_img img{
         width: 36px;
@@ -1896,9 +1895,7 @@
     }
     
     .reviews2{
-        display: flex;
-        gap: 30px;
-        padding-top: 12px;
+        padding-top: 5px;
     }
     
     .rev3{
@@ -1948,7 +1945,8 @@
     .rev4{
         display: flex;
         gap: 6px;
-        padding-right: 23px;
+        padding-right: 5px;
+        padding-top: 5px;
     }
     
     .revi4{
@@ -1996,7 +1994,7 @@
     }
     
     .reviews3{
-        padding-top: 24px;
+        padding-top: 5px;
     }
     
     .rev5{
