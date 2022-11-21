@@ -45,7 +45,7 @@
     }
     
     .onas{
-        background-image: url(/img/onas.png);
+        background-image: url(img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -510,11 +510,7 @@
     .kon_karta{
         padding-top: 10px;
     }
-    #karta{
-        width: 500px;
-        height: 440px;
-        border: 0;
-    }
+
 }
 
 @media (max-width:1438px) and (min-width:1022px){
@@ -550,7 +546,7 @@
     }
     
     .onas{
-        background-image: url(/img/onas.png);
+        background-image: url(img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -990,11 +986,7 @@
     .kon_karta{
         padding-top: 10px;
     }
-    #karta{
-        width: 500px;
-        height: 440px;
-        border: 0;
-    }
+
 }
 
 @media (max-width:1021px) and (min-width:765px){
@@ -1029,7 +1021,7 @@
     }
     
     .onas{
-        background-image: url(/img/onas.png);
+        background-image: url(img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -2098,11 +2090,6 @@
     .kon_karta{
         padding-top: 10px;
     }
-    #karta{
-        width: 250px;
-        height: 220px;
-        border: 0;
-    }
 
 }
 
@@ -2137,7 +2124,7 @@
     }
     
     .onas{
-        background-image: url(/img/onas.png);
+        background-image: url(img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -2719,11 +2706,6 @@
 
     .kon_karta{
         padding-top: 10px;
-    }
-    #karta{
-        width: 125px;
-        height: 110px;
-        border: 0;
     }
 
 }
