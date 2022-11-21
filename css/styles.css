@@ -45,7 +45,7 @@
     }
     
     .onas{
-        background-image: url(img/onas.png);
+        background-image: url(/img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -546,7 +546,7 @@
     }
     
     .onas{
-        background-image: url(img/onas.png);
+        background-image: url(/img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -1021,7 +1021,7 @@
     }
     
     .onas{
-        background-image: url(img/onas.png);
+        background-image: url(/img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -1502,7 +1502,7 @@
     }
     
     .onas{
-        background-image: url(img/onas.png);
+        background-image: url(/img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -2124,7 +2124,7 @@
     }
     
     .onas{
-        background-image: url(img/onas.png);
+        background-image: url(/img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
