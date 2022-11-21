@@ -16,7 +16,7 @@
 @media (max-width:4000px) and (min-width:1439px){
     .header{
         display: flex;
-        margin: 219px, 8px;
+        margin: 219px, 7px;
         background-color: #FFD1C8;
         height: 116px;
         scroll-behavior: smooth;
