@@ -2062,14 +2062,14 @@
         color: #7A5537;
         font-size: 15px;
         padding-top: 24px;
-        padding-left: 21px;
+        padding-left: 13px;
     }
     
     .kont_ul{
         font-size: 10px;
         color: #7A5537;
         padding-top: 10px;
-        padding-left: 21px;
+        padding-left: 13px;
     }
     
     .kont_ul2{
@@ -2670,8 +2670,8 @@
     }
     
     .kont_text{
-        width: 142px;
-        height: 179px;
+        width: 182px;
+        height: 209px;
         padding-right: 0px;
     }
     
@@ -2679,14 +2679,14 @@
         color: #7A5537;
         font-size: 15px;
         padding-top: 24px;
-        padding-left: 13px;
+        padding-left: 21px;
     }
     
     .kont_ul{
         font-size: 10px;
         color: #7A5537;
         padding-top: 10px;
-        padding-left: 13px;
+        padding-left: 21px;
     }
     
     .kont_ul2{
@@ -2699,7 +2699,7 @@
     
     .kont_img img{
         padding-top: 8px;
-        padding-left: 13px;
+        padding-left: 20px;
         width: 25px;
         height: 14px;
     }
