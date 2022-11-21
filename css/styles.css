@@ -1475,7 +1475,7 @@
     .header{
         display: flex;
         background-color: #FFD1C8;
-        height: 10px;
+        height: 100px;
     }
     
     .logo img{
