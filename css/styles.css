@@ -1847,6 +1847,7 @@
     .rev2{
         display: flex;
         gap: 4px;
+        padding-top: 5px;
     }
     
     .revi2{
@@ -1854,7 +1855,7 @@
         height: 80px;
         width: 140px;
         border-radius: 10px;
-        padding-top: 5px;
+
     }
     .rev2_img img{
         width: 36px;
