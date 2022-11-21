@@ -10,21 +10,21 @@
     padding: 0;
     font-family: 'NAMU-1990';
     justify-content: center;
+    
 }
 
-@media (max-width:4000px) and (min-width:1435px){
+@media (max-width:4000px) and (min-width:1439px){
     .header{
         display: flex;
         margin: 219px, 8px;
         background-color: #FFD1C8;
         height: 116px;
-
+        scroll-behavior: smooth;
     }
     
     .logo img{
         width: 182px;
         height: 100px;
-        left: 219px;
         top: 8px;
         position: absolute;
     }
@@ -33,6 +33,7 @@
         text-decoration: none;
         color:#7A5537;
         font-size: 30px;
+        cursor: pointer;
     }
     
     .but_head{
@@ -47,9 +48,8 @@
         background-image: url(/img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 600px;
         position: relative;
-        
+        width: 100%;
     }
     
     .blur {
@@ -66,12 +66,12 @@
     
     }
     
-    .onas_title{
+    .onas_title {
         font-size: 80px;
         padding-top: 113px;
         text-align: center;
+
     }
-    
     #rectangle{
         width: 370px;
         height: 5px;
@@ -125,10 +125,6 @@
         padding-left: 42px;
     }
     
-    /* .menu_card{
-        margin-left: 137px;
-    } */
-    
     .card1{
         display: flex;
         gap: 42px;
@@ -163,6 +159,14 @@
     }
     
     .card_info1{
+        display: flex;
+        gap: 71px;
+        font-size: 26px;
+        color: #7A5537;
+        padding-left: 15px;
+        padding-top: 39px;
+    }
+    .card_info2{
         display: flex;
         gap: 71px;
         font-size: 26px;
@@ -287,10 +291,14 @@
     .reviews{
         background-color: #7A5537;
         height: 730px;
+        
+    }
+
+    .reviews a{
+        scroll-behavior: smooth;
     }
     
     .reviews_title{
-        /* padding-left: 567px; */
         padding-top: 10px;
         color: #E0A66E;
         font-size: 80px;
@@ -309,7 +317,6 @@
     .reviews1{
         display: flex;
         gap: 65px;
-        /* padding-left: 172px; */
         padding-top: 63px;
     }
     
@@ -382,6 +389,7 @@
     .revi3{
         background-color: #FFD1C8;
         height: 121px;
+        width: 337px;
         border-radius: 25px;
     }
     
@@ -462,18 +470,15 @@
         padding-top: 20px;
     }
     
-    #kontakti{
-        position: relative;
-        
+    .kontakti{
+        background-color: #FFD1C8;
+        display: flex;
     }
     
     .kont_text{
-        background-color: #FFD1C8;
+
         width: 388px;
         height: 460px;
-        position: absolute;
-        margin-top: -510px;
-        margin-left: 115px;
     }
     
     .kont_title{
@@ -502,5 +507,2218 @@
         padding-top: 30px;
         padding-left: 32px;
     }
+    .kon_karta{
+        padding-top: 10px;
+    }
+    #karta{
+        width: 500px;
+        height: 440px;
+        border: 0;
+    }
 }
 
+@media (max-width:1438px) and (min-width:1022px){
+    .header{
+        display: flex;
+        margin: 219px, 8px;
+        background-color: #FFD1C8;
+        height: 116px;
+
+    }
+    
+    .logo img{
+        width: 182px;
+        height: 100px;
+        top: 8px;
+        position: absolute;
+        left: 50px;
+    }
+    
+    .but_head a{
+        text-decoration: none;
+        color:#7A5537;
+        font-size: 26px;
+        cursor: pointer;
+    }
+    
+    .but_head{
+        margin-top: 41px;
+        margin-left: 300px;
+        display: flex;
+        gap: 50px;
+        
+    }
+    
+    .onas{
+        background-image: url(/img/onas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }    
+    
+    .blur {
+        animation: changeWidth 8s ease-in-out infinite;
+        background: rgba(235, 320, 255, -0.8); 
+        backdrop-filter: blur(3.5px); 
+        border-right: 1px solid whitesmoke;
+        height: 599px;
+    }
+    
+    .onas_text_big{
+        color: white;
+        font-family: 'NAMU-1990';
+    }
+    
+    .onas_title{
+        font-size: 70px;
+        padding-top: 112px;
+        text-align: center;
+    }
+    
+    #rectangle{
+        width: 370px;
+        height: 5px;
+        background-color: #fff;
+        margin-top: 85px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .onas_text{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 64px;
+    }
+    
+    .menu{
+        background-color: #FFD1C8;
+        height: 3245px;
+    }
+    
+    .men_t{
+        text-align: center;
+        color: #7A5537;
+    }
+    
+    .menu_title{
+        font-size: 70px;
+        padding-top: 53px;
+    }
+    
+    .menu_nav a{
+        text-decoration: none;
+        color: #7A5537;
+    
+    }
+    
+    .menu_nav{
+        padding-top: 25px;
+        font-size: 35px;
+    }
+    
+    .btn_zavtrak{
+        padding-left: 42px;
+    }
+    
+    .btn_coffee{
+        padding-left: 42px;
+    }
+    
+    .btn_sladkoe{
+        padding-left: 42px;
+    }
+    
+    
+    .card1{
+        display: flex;
+        gap: 22px;
+        padding-top: 58px;
+    }
+    
+    .card{
+        width: 266px;
+        height: 342px;
+        background-color: #fff;
+        border-radius: 22px;
+    }
+    
+    .card_img img{
+        width: 266px;
+        height: 193px;
+        border-radius: 22px 22px 0 0;
+    }
+    
+    .card_title{
+        font-size: 25px;
+        color: #7A5537;
+        padding-left: 2px;
+        padding-top: 5px;
+    }
+    
+    .card_disc{
+        font-size: 17px;
+        color: #7A5537;
+        padding-left: 2px;
+        padding-top: 5px;
+    }
+    
+    .card_info1{
+        display: flex;
+        gap: 56px;
+        font-size: 17px;
+        color: #7A5537;
+        padding-top: 29px;
+    }
+    .card_info2{
+        display: flex;
+        gap: 56px;
+        font-size: 17px;
+        color: #7A5537;
+        padding-top: 29px;
+    }
+    .card_info3{
+        display: flex;
+        gap: 56px;
+        font-size: 17px;
+        color: #7A5537;
+        padding-top: 5px;
+    }
+    
+    .card2{
+        display: flex;
+        gap: 22px;
+        padding-top: 27px;
+    }
+    
+    .card_info6{
+        display: flex;
+        gap: 56px;
+        font-size: 17px;
+        color: #7A5537;
+        padding-top: 50px;
+    }
+    
+    .card3{
+        display: flex;
+        gap: 22px;
+        padding-top: 27px;
+    }
+    
+    .card_info7{
+        display: flex;
+        gap: 56px;
+        font-size: 17px;
+        color: #7A5537;
+        padding-top: 9px;
+    }
+    
+    .card4{
+        display: flex;
+        gap: 22px;
+        padding-top: 27px;
+    }
+    
+    .card_info11{
+        display: flex;
+        gap: 56px;
+        font-size: 17px;
+        color: #7A5537;
+        padding-top: 50px;
+    }
+    
+    .card5{
+        display: flex;
+        gap: 22px;
+        padding-top: 27px;
+    }
+    
+    .card_info13{
+        display: flex;
+        gap: 95px;
+        font-size: 17px;
+        color: #7A5537;
+        padding-top: 25px;
+    }
+    
+    .card6{
+        display: flex;
+        gap: 22px;
+        padding-top: 27px;
+    }
+    
+    .card_info15{
+        display: flex;
+        gap: 75px;
+        font-size: 16px;
+        color: #7A5537;
+        padding-top: 32px;
+    }
+    
+    .card_info17{
+        display: flex;
+        gap: 71px;
+        font-size: 17px;
+        color: #7A5537;
+        padding-top: 8px;
+    }
+    
+    .card7{
+        display: flex;
+        gap: 22px;
+        padding-top: 27px;
+    }
+    
+    .card_info18{
+        display: flex;
+        gap: 64px;
+        font-size: 17px;
+        color: #7A5537;
+        padding-top: 39px;
+    }
+    
+    .card8{
+        display: flex;
+        gap: 22px;
+        padding-top: 27px;
+    }
+    
+    .reviews{
+        background-color: #7A5537;
+        height: 630px;
+    }
+    
+    .reviews_title{
+        padding-top: 10px;
+        color: #E0A66E;
+        font-size: 70px;
+        text-align: center;
+    }
+    
+    #rectangle1{
+        width: 370px;
+        height: 5px;
+        background-color: #E0A66E;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 27px;
+    }
+    
+    .reviews1{
+        display: flex;
+        gap: 20px;
+        padding-top: 63px;
+    }
+    
+    .rev1{
+        display: flex;
+        gap: 6px;
+    }
+    
+    .revi1{
+        background-color: #FFD1C8;
+        height: 104px;
+        width: 337px;
+        border-radius: 15px;
+    }
+    
+    .rev1_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    
+    .rev1_text{
+        color: #7A5537;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    
+    .rev1_img img{
+        padding-top: 10px;
+    }
+    
+    .rev2{
+        display: flex;
+        gap: 6px;
+    }
+    
+    .revi2{
+        background-color: #FFD1C8;
+        height: 94px;
+        width: 262px;
+        border-radius: 15px;
+    }
+    
+    .rev2_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    
+    .rev2_text{
+        color: #7A5537;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    
+    .reviews2{
+        display: flex;
+        gap: 20px;
+        padding-top: 31px;
+    }
+    
+    .rev3{
+        display: flex;
+        gap: 6px;
+    }
+    
+    .revi3{
+        background-color: #FFD1C8;
+        height: 124px;
+        width: 282px;
+        border-radius: 15px;
+    }
+    
+    .rev3_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    
+    .rev3_text{
+        color: #7A5537;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    
+    .rev4{
+        display: flex;
+        gap: 6px;
+    }
+    
+    .revi4{
+        background-color: #FFD1C8;
+        height: 115px;
+        width: 337px;
+        border-radius: 15px;
+    }
+    
+    .rev4_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    
+    .rev4_text{
+        color: #7A5537;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+    .rev4_img img{
+        padding-top: 15px;
+    }
+    
+    .reviews3{
+        padding-top: 24px;
+    }
+    
+    .rev5{
+        display: flex;
+        gap: 6px;
+    }
+    
+    .revi5{
+        background-color: #FFD1C8;
+        height: 115px;
+        width: 337px;
+        border-radius: 15px;
+    }
+    
+    .rev5_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    
+    .rev5_text{
+        color: #7A5537;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    
+    .rev5_img img{
+        padding-top: 20px;
+    }
+    
+    .kontakti{
+        background-color: #FFD1C8;
+        display: flex;
+    }
+    
+    .kont_text{
+
+        width: 388px;
+        height: 460px;
+    }
+    
+    .kont_title{
+        color: #7A5537;
+        font-size: 40px;
+        padding-top: 24px;
+        padding-left: 31px;
+    }
+    
+    .kont_ul{
+        font-size: 20px;
+        color: #7A5537;
+        padding-top: 14px;
+        padding-left: 31px;
+    }
+    
+    .kont_ul2{
+        padding-top: 21px;
+    }
+    
+    .kont_ul3{
+        padding-top: 21px;
+    }
+    
+    .kont_img{
+        padding-top: 30px;
+        padding-left: 32px;
+    }
+
+    .kon_karta{
+        padding-top: 10px;
+    }
+    #karta{
+        width: 500px;
+        height: 440px;
+        border: 0;
+    }
+}
+
+@media (max-width:1021px) and (min-width:765px){
+    .header{
+        display: flex;
+        margin: 219px, 8px;
+        background-color: #FFD1C8;
+        height: 116px;
+    }
+    
+    .logo img{
+        width: 182px;
+        height: 100px;
+        top: 8px;
+        position: absolute;
+        left: 20px;
+    }
+    
+    .but_head a{
+        text-decoration: none;
+        color:#7A5537;
+        font-size: 21px;
+        cursor: pointer;
+    }
+    
+    .but_head{
+        margin-top: 41px;
+        margin-left: 300px;
+        display: flex;
+        gap: 50px;
+        
+    }
+    
+    .onas{
+        background-image: url(/img/onas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }    
+    
+    
+    .blur {
+        animation: changeWidth 8s ease-in-out infinite;
+        background: rgba(235, 320, 255, -0.8); 
+        backdrop-filter: blur(3.5px); 
+        border-right: 1px solid whitesmoke;
+        height: 599px;
+    }
+    
+    .onas_text_big{
+        color: white;
+        font-family: 'NAMU-1990';
+    }
+    
+    .onas_title{
+        font-size: 60px;
+        padding-top: 115px;
+        text-align: center;
+    }
+    
+    #rectangle{
+        width: 370px;
+        height: 5px;
+        background-color: #fff;
+        margin-top: 85px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .onas_text{
+        font-size: 25px;
+        text-align: center;
+        padding-top: 83px;
+
+    }
+    
+    .menu{
+        background-color: #FFD1C8;
+        height: 2300px;
+    }
+    
+    .men_t{
+        text-align: center;
+        color: #7A5537;
+    }
+    
+    .menu_title{
+        font-size: 60px;
+        padding-top: 43px;
+    }
+    
+    .menu_nav a{
+        text-decoration: none;
+        color: #7A5537;
+    
+    }
+    
+    .menu_nav{
+        padding-top: 25px;
+        font-size: 25px;
+    }
+    
+    .btn_zavtrak{
+        padding-left: 32px;
+    }
+    
+    .btn_coffee{
+        padding-left: 32px;
+    }
+    
+    .btn_sladkoe{
+        padding-left: 32px;
+    }
+    
+    
+    .card1{
+        display: flex;
+        gap: 18px;
+        padding-top: 38px;
+    }
+    
+    .card{
+        width: 183px;
+        height: 235px;
+        background-color: #fff;
+        border-radius: 16px;
+    }
+    
+    .card_img img{
+        width: 183px;
+        height: 133px;
+        border-radius: 16px 16px 0 0;
+    }
+    
+    .card_title{
+        font-size: 17px;
+        color: #7A5537;
+        padding-left: 2px;
+        padding-top: 3px;
+    }
+    
+    .card_disc{
+        font-size: 12px;
+        color: #7A5537;
+        padding-left: 2px;
+        padding-top: 3px;
+    }
+    
+    .card_info1{
+        display: flex;
+        gap: 40px;
+        font-size: 13px;
+        color: #7A5537;
+        padding-top: 10px;
+    }
+    .card_info2{
+        display: flex;
+        gap: 45px;
+        font-size: 13px;
+        color: #7A5537;
+        padding-top: 24px;
+    }
+    .card_info3{
+        display: flex;
+        gap: 40px;
+        font-size: 13px;
+        color: #7A5537;
+        padding-top: 5px;
+    }
+    
+    .card2{
+        display: flex;
+        gap: 18px;
+        padding-top: 24px;
+    }
+    
+    .card_info6{
+        display: flex;
+        gap: 38px;
+        font-size: 13px;
+        color: #7A5537;
+        padding-top: 39px;
+    }
+    
+    .card3{
+        display: flex;
+        gap: 18px;
+        padding-top: 24px;
+    }
+    
+    .card_info7{
+        display: flex;
+        gap: 18px;
+        font-size: 13px;
+        color: #7A5537;
+        padding-top: 1px;
+    }
+    
+    .card4{
+        display: flex;
+        gap: 18px;
+        padding-top: 24px;
+    }
+    
+    .card_info11{
+        display: flex;
+        gap: 45px;
+        font-size: 13px;
+        color: #7A5537;
+        padding-top: 29px;
+    }
+    
+    .card5{
+        display: flex;
+        gap: 18px;
+        padding-top: 24px;
+    }
+    
+    .card_info13{
+        display: flex;
+        gap: 54px;
+        font-size: 13px;
+        color: #7A5537;
+        padding-top: 18px;
+    }
+    
+    .card6{
+        display: flex;
+        gap: 18px;
+        padding-top: 24px;
+    }
+    
+    .card_info15{
+        display: flex;
+        gap: 45px;
+        font-size: 13px;
+        color: #7A5537;
+        padding-top: 8px;
+    }
+    
+    .card_info17{
+        display: flex;
+        gap: 40px;
+        font-size: 13px;
+        color: #7A5537;
+        padding-top: 8px;
+    }
+    
+    .card7{
+        display: flex;
+        gap: 18px;
+        padding-top: 24px;
+    }
+    
+    .card_info18{
+        display: flex;
+        gap: 30px;
+        font-size: 13px;
+        color: #7A5537;
+        padding-top: 10px;
+    }
+    
+    .card8{
+        display: flex;
+        gap: 18px;
+        padding-top: 24px;
+    }
+    
+    .reviews{
+        background-color: #7A5537;
+        height: 630px;
+    }
+    
+    .reviews_title{
+        padding-top: 10px;
+        color: #E0A66E;
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    #rectangle1{
+        width: 370px;
+        height: 5px;
+        background-color: #E0A66E;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 27px;
+    }
+    
+    .reviews1{
+        display: flex;
+        gap: 10px;
+        padding-top: 43px;
+    }
+    
+    .rev1{
+        display: flex;
+        gap: 6px;
+    }
+    
+    .revi1{
+        background-color: #FFD1C8;
+        height: 127px;
+        width: 264px;
+        border-radius: 15px;
+    }
+    
+    .rev1_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    
+    .rev1_text{
+        color: #7A5537;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    
+    .rev1_img img{
+        padding-top: 10px;
+    }
+    
+    .rev2{
+        display: flex;
+        gap: 6px;
+    }
+    
+    .revi2{
+        background-color: #FFD1C8;
+        height: 105px;
+        width: 230px;
+        border-radius: 15px;
+    }
+    
+    .rev2_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    
+    .rev2_text{
+        color: #7A5537;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    
+    .reviews2{
+        display: flex;
+        gap: 10px;
+        padding-top: 31px;
+    }
+    
+    .rev3{
+        display: flex;
+        gap: 6px;
+    }
+    
+    .revi3{
+        background-color: #FFD1C8;
+        height: 115px;
+        width: 260px;
+        border-radius: 15px;
+    }
+    
+    .rev3_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    
+    .rev3_text{
+        color: #7A5537;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+    .rev4{
+        display: flex;
+        gap: 6px;
+    }
+    
+    .revi4{
+        background-color: #FFD1C8;
+        height: 135px;
+        width: 264px;
+        border-radius: 15px;
+    }
+    
+    .rev4_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    
+    .rev4_text{
+        color: #7A5537;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+    .rev4_img img{
+        padding-top: 15px;
+    }
+    
+    .reviews3{
+        padding-top: 24px;
+    }
+    
+    .rev5{
+        display: flex;
+        gap: 6px;
+    }
+    
+    .revi5{
+        background-color: #FFD1C8;
+        height: 115px;
+        width: 300px;
+        border-radius: 15px;
+    }
+    
+    .rev5_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    
+    .rev5_text{
+        color: #7A5537;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    
+    .rev5_img img{
+        padding-top: 20px;
+    }
+    
+    .kontakti{
+        background-color: #FFD1C8;
+        display: flex;
+    }
+    
+    .kont_text{
+        width: 388px;
+        height: 460px;
+
+    }
+    
+    .kont_title{
+        color: #7A5537;
+        font-size: 25px;
+        padding-top: 75px;
+        padding-left: 21px;
+    }
+    
+    .kont_ul{
+        font-size: 15px;
+        color: #7A5537;
+        padding-top: 14px;
+        padding-left: 21px;
+    }
+    
+    .kont_ul2{
+        padding-top: 21px;
+    }
+    
+    .kont_ul3{
+        padding-top: 21px;
+    }
+    
+    .kont_img{
+        padding-top: 30px;
+        padding-left: 32px;
+    }
+
+    .kon_karta{
+        padding-top: 10px;
+        padding-right: 30px;
+    }
+    #karta{
+        width: 500px;
+        height: 440px;
+        border: 0;
+    }
+}
+
+@media (max-width:764px) and (min-width:321px){
+    .header{
+        display: flex;
+        background-color: #FFD1C8;
+        height: 100px;
+    }
+    
+    .logo img{
+        width: 93px;
+        height: 51px;
+        top: 25px;
+        position: absolute;
+        left: 20px;
+    }
+    
+    .but_head a{
+        text-decoration: none;
+        color:#7A5537;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .but_head{
+        margin-top: 41px;
+        margin-left: 100px;
+        display: flex;
+        gap: 20px;
+        
+    }
+    
+    .onas{
+        background-image: url(/img/onas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }    
+    
+    
+    .blur {
+        animation: changeWidth 8s ease-in-out infinite;
+        background: rgba(235, 320, 255, -0.8); 
+        backdrop-filter: blur(3.5px); 
+        border-right: 1px solid whitesmoke;
+        height: 599px;
+    }
+    
+    .onas_text_big{
+        color: white;
+        font-family: 'NAMU-1990';
+    }
+    
+    .onas_title{
+        font-size: 50px;
+        padding-top: 115px;
+        text-align: center;
+    }
+    
+    #rectangle{
+        width: 200px;
+        height: 5px;
+        background-color: #fff;
+        margin-top: 55px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .onas_text{
+        font-size: 24px;
+        text-align: center;
+        padding-top: 53px;
+
+    }
+    
+    .menu{
+        background-color: #FFD1C8;
+        height: 1815px;
+    }
+    
+    .men_t{
+        text-align: center;
+        color: #7A5537;
+    }
+    
+    .menu_title{
+        font-size: 50px;
+        padding-top: 33px;
+    }
+    
+    .menu_nav a{
+        text-decoration: none;
+        color: #7A5537;
+    
+    }
+    
+    .menu_nav{
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    
+    .btn_zavtrak{
+        padding-left: 12px;
+    }
+    
+    .btn_coffee{
+        padding-left: 12px;
+    }
+    
+    .btn_sladkoe{
+        padding-left: 12px;
+    }
+    
+    
+    .card1{
+        display: flex;
+        gap: 8px;
+        padding-top: 28px;
+    }
+    
+    .card{
+        width: 130px;
+        height: 190px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    
+    .card_img img{
+        width: 130px;
+        height: 94.48px;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .card_title{
+        font-size: 14px;
+        color: #7A5537;
+        padding-left: 2px;
+    }
+    
+    .card_disc{
+        font-size: 10px;
+        color: #7A5537;
+        padding-left: 2px;
+        padding-top: 2px;
+    }
+    
+    .card_info1{
+        display: flex;
+        gap: 20px;
+        font-size: 10px;
+        color: #7A5537;
+        padding-top: 20px;
+    }
+    .card_info2{
+        display: flex;
+        gap: 20px;
+        font-size: 10px;
+        color: #7A5537;
+        padding-top: 33px;
+    }
+    .card_info3{
+        display: flex;
+        gap: 20px;
+        font-size: 10px;
+        color: #7A5537;
+        padding-top: 9px;
+    }
+    
+    .card2{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+    #omlet{
+        padding-top: 14px;
+    }
+    #omlett{
+        padding-top: 14px;
+    }
+    
+    .card_info6{
+        display: flex;
+        gap: 24px;
+        font-size: 10px;
+        color: #7A5537;
+        padding-top: 47px;
+    }
+    
+    .card3{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+
+    .card_info7{
+        display: flex;
+        gap: 14px;
+        font-size: 10px;
+        color: #7A5537;
+        padding-top: 11px;
+    }
+
+    #cof{
+        padding-top: 6px;
+    }
+    #coff{
+        padding-top: 6px;
+    }
+    #kakao{
+        padding-top: 6px;
+    }
+    #kakaoo{
+        padding-top: 6px;
+    }
+    
+    .card4{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+    
+    .card_info11{
+        display: flex;
+        gap: 35px;
+        font-size: 10px;
+        color: #7A5537;
+        padding-top: 29px;
+    }
+    
+    .card5{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+    
+    .card_info13{
+        display: flex;
+        gap: 34px;
+        font-size: 10px;
+        color: #7A5537;
+        padding-top: 30px;
+    }
+    
+    .card6{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+    
+    .card_info15{
+        display: flex;
+        gap: 25px;
+        font-size: 10px;
+        color: #7A5537;
+        padding-top: 30px;
+    }
+    
+    .card_info17{
+        display: flex;
+        gap: 25px;
+        font-size: 10px;
+        color: #7A5537;
+        padding-top: 19px;
+    }
+    
+    .card7{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+    
+    .card_info18{
+        display: flex;
+        gap: 25px;
+        font-size: 10px;
+        color: #7A5537;
+        padding-top: 18px;
+    }
+    #don{
+        padding-top: 16px;
+    }
+    #donn{
+        padding-top: 16px;
+    }
+    .card8{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+    
+    .reviews{
+        background-color: #7A5537;
+        height: 495px;
+    }
+    
+    .reviews_title{
+        padding-top: 10px;
+        color: #E0A66E;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    #rectangle1{
+        width: 200px;
+        height: 5px;
+        background-color: #E0A66E;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 27px;
+    }
+    
+    .reviews1{
+        display: flex;
+        gap: 30px;
+        padding-top: 43px;
+    }
+    
+    .rev1{
+        display: flex;
+        gap: 4px;
+    }
+    
+    .revi1{
+        background-color: #FFD1C8;
+        height: 100px;
+        width: 146px;
+        border-radius: 10px;
+    }
+    
+    .rev1_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+
+    .rev1_zvezda1 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev1_zvezda2 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev1_zvezda3 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev1_zvezda4 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev1_zvezda5 img{
+        width: 27px;
+        height: 23px;
+    }
+    
+    .rev1_text{
+        color: #7A5537;
+        font-size: 10px;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    
+    .rev1_img img{
+        padding-top: 30px;
+        width: 36px;
+        height: 35.54px;
+    }
+    
+    .rev2{
+        display: flex;
+        gap: 4px;
+    }
+    
+    .revi2{
+        background-color: #FFD1C8;
+        height: 80px;
+        width: 140px;
+        border-radius: 10px;
+    }
+    .rev2_img img{
+        width: 36px;
+        height: 52px;
+        padding-top: 20px;
+    }
+    
+    .rev2_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    .rev2_zvezda1 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev2_zvezda2 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev2_zvezda3 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev2_zvezda4 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev2_zvezda5 img{
+        width: 27px;
+        height: 23px;
+    }
+    
+    .rev2_text{
+        color: #7A5537;
+        font-size: 10px;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    
+    .reviews2{
+        display: flex;
+        gap: 30px;
+        padding-top: 12px;
+    }
+    
+    .rev3{
+        display: flex;
+        gap: 6px;
+        padding-left: 12px;
+    }
+    
+    .revi3{
+        background-color: #FFD1C8;
+        height: 77px;
+        width: 148px;
+        border-radius: 10px;
+    }
+    .rev3_img img{
+        width: 36px;
+        height: 52px;
+        padding-top: 12px;
+    }
+    
+    .rev3_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    .rev3_zvezda1 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev3_zvezda2 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev3_zvezda3 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev3_zvezda4 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev3_text{
+        color: #7A5537;
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    
+    .rev4{
+        display: flex;
+        gap: 6px;
+        padding-right: 23px;
+    }
+    
+    .revi4{
+        background-color: #FFD1C8;
+        height: 110px;
+        width: 145px;
+        border-radius: 15px;
+    }
+    
+    .rev4_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    .rev4_zvezda1 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev4_zvezda2 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev4_zvezda3 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev4_zvezda4 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev4_zvezda5 img{
+        width: 27px;
+        height: 23px;
+    }
+    
+    .rev4_text{
+        color: #7A5537;
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    
+    .rev4_img img{
+        padding-top: 40px;
+        width: 36px;
+        height: 35.54px;
+    }
+    
+    .reviews3{
+        padding-top: 24px;
+    }
+    
+    .rev5{
+        display: flex;
+        gap: 6px;;
+    }
+    
+    .revi5{
+        background-color: #FFD1C8;
+        height: 77px;
+        width: 139px;
+        border-radius: 10px;
+    }
+    .rev5_img img{
+        padding-top: 40px;
+        width: 36px;
+        height: 35.54px;
+    }
+    
+    .rev5_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    .rev5_zvezda1 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev5_zvezda2 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev5_zvezda3 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev5_zvezda4 img{
+        width: 27px;
+        height: 23px;
+    }
+    
+    .rev5_text{
+        color: #7A5537;
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    
+    .rev5_img img{
+        padding-top: 20px;
+    }
+    
+    .kontakti{
+        background-color: #FFD1C8;
+        display: flex;
+    }
+    
+    .kont_text{
+        width: 182px;
+        height: 209px;
+        padding-right: 0px;
+    }
+    
+    .kont_title{
+        color: #7A5537;
+        font-size: 15px;
+        padding-top: 24px;
+        padding-left: 21px;
+    }
+    
+    .kont_ul{
+        font-size: 10px;
+        color: #7A5537;
+        padding-top: 10px;
+        padding-left: 21px;
+    }
+    
+    .kont_ul2{
+        padding-top: 10px;
+    }
+    
+    .kont_ul3{
+        padding-top: 10px;
+    }
+    
+    .kont_img img{
+        padding-top: 8px;
+        padding-left: 20px;
+        width: 25px;
+        height: 14px;
+    }
+
+    .kon_karta{
+        padding-top: 10px;
+    }
+    #karta{
+        width: 250px;
+        height: 220px;
+        border: 0;
+    }
+
+}
+
+@media (max-width:320px){
+    .header{
+        display: flex;
+        background-color: #FFD1C8;
+        height: 100px;
+    }
+    
+    .logo img{
+        width: 93px;
+        height: 51px;
+        top: 25px;
+        position: absolute;
+        left: 20px;
+    }
+    
+    .but_head a{
+        text-decoration: none;
+        color:#7A5537;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    
+    .but_head{
+        margin-top: 41px;
+        margin-left: 100px;
+        display: flex;
+        gap: 20px;
+        
+    }
+    
+    .onas{
+        background-image: url(/img/onas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }    
+    
+    
+    .blur {
+        animation: changeWidth 8s ease-in-out infinite;
+        background: rgba(235, 320, 255, -0.8); 
+        backdrop-filter: blur(3.5px); 
+        border-right: 1px solid whitesmoke;
+        height: 599px;
+    }
+    
+    .onas_text_big{
+        color: white;
+        font-family: 'NAMU-1990';
+    }
+    
+    .onas_title{
+        font-size: 40px;
+        padding-top: 115px;
+        text-align: center;
+    }
+    
+    #rectangle{
+        width: 200px;
+        height: 5px;
+        background-color: #fff;
+        margin-top: 55px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .onas_text{
+        font-size: 18px;
+        text-align: center;
+        padding-top: 53px;
+
+    }
+    
+    .menu{
+        background-color: #FFD1C8;
+        height: 1367px;
+    }
+    
+    .men_t{
+        text-align: center;
+        color: #7A5537;
+    }
+    
+    .menu_title{
+        font-size: 40px;
+        padding-top: 33px;
+    }
+    
+    .menu_nav a{
+        text-decoration: none;
+        color: #7A5537;
+    
+    }
+    
+    .menu_nav{
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    
+    .btn_zavtrak{
+        padding-left: 12px;
+    }
+    
+    .btn_coffee{
+        padding-left: 12px;
+    }
+    
+    .btn_sladkoe{
+        padding-left: 12px;
+    }
+    
+    
+    .card1{
+        display: flex;
+        gap: 8px;
+        padding-top: 28px;
+    }
+    
+    .card{
+        width: 104px;
+        height: 138px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    
+    .card_img img{
+        width: 104px;
+        height: 66.78px;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .card_title{
+        font-size: 10px;
+        color: #7A5537;
+        padding-left: 2px;
+    }
+    
+    .card_disc{
+        font-size: 8px;
+        color: #7A5537;
+        padding-left: 2px;
+        padding-top: 2px;
+    }
+    
+    .card_info1{
+        display: flex;
+        gap: 20px;
+        font-size: 8px;
+        color: #7A5537;
+        padding-top: 9px;
+    }
+    .card_info2{
+        display: flex;
+        gap: 20px;
+        font-size: 8px;
+        color: #7A5537;
+        padding-top: 18px;
+    }
+    .card_info3{
+        display: flex;
+        gap: 20px;
+        font-size: 8px;
+        color: #7A5537;
+        padding-top: 9px;
+    }
+    
+    .card2{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+    #omlet{
+        padding-top: 1px;
+    }
+    #omlett{
+        padding-top: 1px;
+    }
+    
+    .card_info6{
+        display: flex;
+        gap: 20px;
+        font-size: 8px;
+        color: #7A5537;
+        padding-top: 29px;
+    }
+    
+    .card3{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+
+    .card_info7{
+        display: flex;
+        gap: 7px;
+        font-size: 8px;
+        color: #7A5537;
+        padding-top: 5px;
+    }
+
+    #cof{
+        padding-top: 6px;
+    }
+    #coff{
+        padding-top: 6px;
+    }
+    #kakao{
+        padding-top: 6px;
+    }
+    #kakaoo{
+        padding-top: 6px;
+    }
+    
+    .card4{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+    
+    .card_info11{
+        display: flex;
+        gap: 20px;
+        font-size: 8px;
+        color: #7A5537;
+        padding-top: 20px;
+    }
+    
+    .card5{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+    
+    .card_info13{
+        display: flex;
+        gap: 24px;
+        font-size: 8px;
+        color: #7A5537;
+        padding-top: 20px;
+    }
+    
+    .card6{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+    
+    .card_info15{
+        display: flex;
+        gap: 22px;
+        font-size: 8px;
+        color: #7A5537;
+        padding-top: 20px;
+    }
+    
+    .card_info17{
+        display: flex;
+        gap: 20px;
+        font-size: 8px;
+        color: #7A5537;
+        padding-top: 12px;
+    }
+    
+    .card7{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+    
+    .card_info18{
+        display: flex;
+        gap: 15px;
+        font-size: 8px;
+        color: #7A5537;
+        padding-top: 18px;
+    }
+    #don{
+        padding-top: 0px;
+    }
+    #donn{
+        padding-top: 0px;
+    }
+    #dont{
+        padding-top: 0px;
+    }
+    #donnt{
+        padding-top: 0px;
+    }
+    .card8{
+        display: flex;
+        gap: 8px;
+        padding-top: 14px;
+    }
+    
+    .reviews{
+        background-color: #7A5537;
+        height: 495px;
+    }
+    
+    .reviews_title{
+        padding-top: 10px;
+        color: #E0A66E;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    #rectangle1{
+        width: 200px;
+        height: 5px;
+        background-color: #E0A66E;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 27px;
+    }
+    
+    .reviews1{
+        display: flex;
+        gap: 2px;
+        padding-top: 43px;
+    }
+    
+    .rev1{
+        display: flex;
+        gap: 1px;
+    }
+    
+    .revi1{
+        background-color: #FFD1C8;
+        height: 100px;
+        width: 146px;
+        border-radius: 10px;
+    }
+    
+    .rev1_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+
+    .rev1_zvezda1 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev1_zvezda2 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev1_zvezda3 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev1_zvezda4 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev1_zvezda5 img{
+        width: 27px;
+        height: 23px;
+    }
+    
+    .rev1_text{
+        color: #7A5537;
+        font-size: 10px;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    
+    .rev1_img img{
+        padding-top: 30px;
+        width: 36px;
+        height: 35.54px;
+    }
+    
+    .rev2{
+        display: flex;
+        gap: 1px;
+    }
+    
+    .revi2{
+        background-color: #FFD1C8;
+        height: 80px;
+        width: 140px;
+        border-radius: 10px;
+    }
+    .rev2_img img{
+        width: 36px;
+        height: 52px;
+        padding-top: 20px;
+    }
+    
+    .rev2_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    .rev2_zvezda1 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev2_zvezda2 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev2_zvezda3 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev2_zvezda4 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev2_zvezda5 img{
+        width: 27px;
+        height: 23px;
+    }
+    
+    .rev2_text{
+        color: #7A5537;
+        font-size: 10px;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    
+    .reviews2{
+        display: flex;
+        gap: 3px;
+        padding-top: 12px;
+    }
+    
+    .rev3{
+        display: flex;
+        gap: 1px;
+        padding-left: 12px;
+    }
+    
+    .revi3{
+        background-color: #FFD1C8;
+        height: 77px;
+        width: 148px;
+        border-radius: 10px;
+    }
+    .rev3_img img{
+        width: 36px;
+        height: 52px;
+        padding-top: 12px;
+    }
+    
+    .rev3_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    .rev3_zvezda1 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev3_zvezda2 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev3_zvezda3 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev3_zvezda4 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev3_text{
+        color: #7A5537;
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    
+    .rev4{
+        display: flex;
+        gap: 1px;
+        padding-right: 23px;
+    }
+    
+    .revi4{
+        background-color: #FFD1C8;
+        height: 110px;
+        width: 145px;
+        border-radius: 15px;
+    }
+    
+    .rev4_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    .rev4_zvezda1 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev4_zvezda2 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev4_zvezda3 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev4_zvezda4 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev4_zvezda5 img{
+        width: 27px;
+        height: 23px;
+    }
+    
+    .rev4_text{
+        color: #7A5537;
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    
+    .rev4_img img{
+        padding-top: 40px;
+        width: 36px;
+        height: 35.54px;
+    }
+    
+    .reviews3{
+        padding-top: 14px;
+    }
+    
+    .rev5{
+        display: flex;
+        gap: 6px;;
+    }
+    
+    .revi5{
+        background-color: #FFD1C8;
+        height: 77px;
+        width: 139px;
+        border-radius: 10px;
+    }
+    .rev5_img img{
+        padding-top: 40px;
+        width: 36px;
+        height: 35.54px;
+    }
+    
+    .rev5_zvezdi{
+        display: flex;
+        padding-top: 6px;
+    }
+    .rev5_zvezda1 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev5_zvezda2 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev5_zvezda3 img{
+        width: 27px;
+        height: 23px;
+    }
+    .rev5_zvezda4 img{
+        width: 27px;
+        height: 23px;
+    }
+    
+    .rev5_text{
+        color: #7A5537;
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    
+    .rev5_img img{
+        padding-top: 20px;
+    }
+    
+    .kontakti{
+        background-color: #FFD1C8;
+        display: flex;
+    }
+    
+    .kont_text{
+        width: 182px;
+        height: 209px;
+        padding-right: 0px;
+    }
+    
+    .kont_title{
+        color: #7A5537;
+        font-size: 15px;
+        padding-top: 24px;
+        padding-left: 21px;
+    }
+    
+    .kont_ul{
+        font-size: 10px;
+        color: #7A5537;
+        padding-top: 10px;
+        padding-left: 21px;
+    }
+    
+    .kont_ul2{
+        padding-top: 10px;
+    }
+    
+    .kont_ul3{
+        padding-top: 10px;
+    }
+    
+    .kont_img img{
+        padding-top: 8px;
+        padding-left: 20px;
+        width: 25px;
+        height: 14px;
+    }
+
+    .kon_karta{
+        padding-top: 10px;
+    }
+    #karta{
+        width: 125px;
+        height: 110px;
+        border: 0;
+    }
+
+}
