@@ -45,7 +45,7 @@
     }
     
     .onas{
-        background-image: url("https://github.com/ryzhovaolesya/CD/blob/main/img/onas.png");
+        background-image: url(https://github.com/ryzhovaolesya/CD/blob/main/img/onas.png);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
